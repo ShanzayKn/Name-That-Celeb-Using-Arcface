@@ -14,24 +14,6 @@ The system extracts face embeddings, compares them against known identities, and
 
 ---
 
-## 📂 Project Structure
-.
-├── model.py # ArcFace backbone (ResNet18)
-├── evaluate.py # Evaluate on test dataset
-├── conf.py # Face verification (same/different)
-├── confusion.py # Confusion matrix visualization
-├── video.py # Main script: recognize celebs in videos
-├── requirements.txt # Dependencies
-├── README.md # Project documentation
-└── recognized_videos/ # Sample output videos
-├── jimmy_fallon.mp4
-├── adrien_brody.mp4
-├── adam_sandler.mp4
-└── README.md
-
-
----
-
 ## For Images 
 python evaluate.py
 
