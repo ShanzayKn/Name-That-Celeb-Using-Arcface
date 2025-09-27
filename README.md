@@ -20,7 +20,7 @@ python evaluate.py
 ## Running On Videos
 python video.py
 
-📌 Results
+## 📌 Results
 
 - Achieved 80% accuracy on the test dataset for videos.
 - ArcFace embeddings give strong separation between celebrity identities
