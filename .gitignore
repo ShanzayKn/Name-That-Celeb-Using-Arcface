@@ -1,0 +1,12 @@
+data/
+__pycache__/
+*.pth
+
+# Ignore all recognized videos by default
+recognized_videos/*
+
+# But keep these demo videos and README
+!recognized_videos/jimmy_fallon.mp4
+!recognized_videos/adrien_brody.mp4
+!recognized_videos/adam_sandler.mp4
+!recognized_videos/README.md
